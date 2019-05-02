@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { Switch } from 'react-router';
-import { Column } from 'simple-flexbox';
 
 import * as routes from '../../routes';
 
@@ -18,7 +17,6 @@ export default class App extends React.Component {
   render() {
   return (
     <BrowserRouter>
-      <Column flexGrow={1}>
         <div className="App">
           <Header/>
           <Switch>
@@ -29,7 +27,6 @@ export default class App extends React.Component {
             <Route exact path={routes.BIO} component={Bio}/>
           </Switch>
         </div>
-      </Column>
     </BrowserRouter>
   );
   }

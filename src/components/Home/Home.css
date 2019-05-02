@@ -1,3 +1,23 @@
 .homeDiv{
     height: 300px;
 }
+
+.container {
+    display: flex;
+    flex-flow: row;
+    position: relative;
+}
+
+.mainColumn {
+    padding: 10px;
+    flex-grow: 3;
+    flex-basis: 0;
+    margin: 0 auto;
+}
+
+.sideColumn {
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 0 auto;
+}

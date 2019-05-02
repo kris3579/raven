@@ -4,12 +4,12 @@ export default class Header extends React.Component {
     render() {
         return (
             <header className="App-header">
-                <nav class="nav">
-                <a class="links" href="/">Home</a>
-                <a class="links" href="/shows">Shows</a>
-                <a class="links" href="/videosArticles">Videos/Articles</a>
-                <a class="links" href="/gallery">Gallery</a>
-                <a class="links" href="/bio">Bio</a>
+                <nav className="nav">
+                <a className="links" href="/">Home</a>
+                <a className="links" href="/shows">Shows</a>
+                <a className="links" href="/videosArticles">Videos/Articles</a>
+                <a className="links" href="/gallery">Gallery</a>
+                <a className="links" href="/bio">Bio</a>
                 </nav>
             </header>
         );
